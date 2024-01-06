@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82F84738-C5C7-9134-3418-9F5149C35411" name="Company">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:19:48 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="com_id" id="AE14F788-999B-3CB8-2482-9A3DFC119721">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:21:13 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="com_name" id="4BDDCA23-B767-6258-D89C-F53F715D0012">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:21:32 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="com_email" id="D7D233E5-9ED6-77F4-4409-662F7169E058">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:22:50 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="com_profile" id="0C0562FC-D948-1AF2-945A-4A2A5E3CC2E0">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:23:20 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transportation_schedule" id="DF2B35CD-307D-7281-59D1-38D160BE2EF0">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:24:16 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="route Maps" id="8DC17A17-E3A4-3AD5-504E-20F8A1E836CD">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:33:57 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_Roster" id="2AAE9780-DCFF-7ABA-F59C-D42CAC1BA8D3">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:34:25 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="42362858-5D1E-168C-59CD-0B2B9CC1418A">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:34:47 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emergency_procedures" id="372D56E5-75CE-AF32-4EC8-876A4A084121">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:35:13 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="com_status" id="B5952E08-9307-184C-D6EA-82D4EB38239B">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:39:14 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93923CFF-36E1-D6C8-AFDC-811AEE3537C2" name="Company PK">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:21:30 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE14F788-999B-3CB8-2482-9A3DFC119721</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

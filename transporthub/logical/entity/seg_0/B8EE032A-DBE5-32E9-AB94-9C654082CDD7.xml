@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8EE032A-DBE5-32E9-AB94-9C654082CDD7" name="District">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:03:47 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="district_id" id="24720CAA-BD13-D0BA-B4A9-F6FACFEBEE8F">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:04:15 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="district_name" id="D1B3B831-4F45-8BC9-B4BA-3D75772B27D5">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:04:40 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BED90020-D69A-5C9A-A297-39D473E43534" name="Location PK">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:04:39 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24720CAA-BD13-D0BA-B4A9-F6FACFEBEE8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

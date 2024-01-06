@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F6948CB-699E-6C7E-ABD1-E7BFC4F8CC7B" name="Admin">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:31:34 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="admin_id" id="6077ABDA-21A8-200B-C508-B6DA69205CE8">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:31:47 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="C64CAB1B-332A-34CE-6E81-4CDA2BB14364">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:32:14 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="48416086-E289-7EF1-2072-F1D856AC1034">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:32:52 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C2DBBAE-322A-0167-21A7-1A150F6CDA11" name="Admin PK">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:32:06 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6077ABDA-21A8-200B-C508-B6DA69205CE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

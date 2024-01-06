@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33241DAD-098F-7B0D-6281-2C93CC740480" name="Clients">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:56:37 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="client_id" id="F6425B76-D74E-4B08-BBF5-8F4856401D5A">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:56:48 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_fname" id="716F1B80-EEB6-815E-405A-EBF6768CACD2">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:57:06 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_lname" id="A656AB18-2236-8D39-D7DA-6F924E857B2E">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:57:22 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_email" id="DC21A908-7A20-8CA0-C81F-EA27D4EED555">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:57:39 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_mobilenum" id="E1E4A971-0DE0-AAA6-C2AB-E6ACF3263439">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:58:00 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_address" id="5C3C1857-E2D3-9E91-46B4-0112692FAEC5">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:18:49 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_dob" id="219DD1F7-702E-0507-46E0-E8F6E1EB620C">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:58:22 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_uname" id="6800DA3E-D784-60E4-6367-287D4AFB03AC">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:59:02 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_pass" id="5B9A5B02-AA40-CBF5-B020-7231D9E38649">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:59:53 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_desc" id="9BB71170-ED29-CEEF-782A-E78FE145CB4A">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:01:06 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="c_profile" id="77AE1A82-CBD1-C77D-B69C-201A6A66D60B">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 18:02:04 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20215A5D-196E-9690-1DE2-3828E2E9E004" name="Clients PK">
+<createdBy>Zainab</createdBy>
+<createdTime>2024-01-06 17:57:04 UTC</createdTime>
+<ownerDesignName>transporthub</ownerDesignName>
+<engineerTo>
+<item key="B04342DE-5A3E-763D-9B1B-D2C058E865C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6425B76-D74E-4B08-BBF5-8F4856401D5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
