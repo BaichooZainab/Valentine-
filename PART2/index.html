@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A romantic Valentine's Day interactive experience">
+    <meta name="theme-color" content="#ff4e50">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bgCanvas" aria-label="Animated heart background"></canvas>
+
+<div class="blur" aria-hidden="true"></div>
+
+<header class="top-bar">
+    <div id="countdown" aria-live="polite" aria-label="Countdown to Valentine's Day"></div>
+    <button id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+</header>
+
+<main class="card" role="main">
+    <img src="./couple.jpg" class="love-img" alt="Photo of us together" loading="lazy">
+
+    <h1>Happy Valentine's Day Loulou ❤️</h1>
+    <p id="typingText" class="subtitle" aria-live="polite" role="status"></p>
+
+    <button class="main-btn" aria-label="Open my heart message">Open My Heart 💌</button>
+
+    <div id="reasonBox" class="reason-display hidden" role="region" aria-live="polite" aria-label="Reason reveal"></div>
+
+    <div class="reason-buttons hidden" id="reasonControls" role="group" aria-label="Reason navigation">
+        <button id="nextReason" class="next-btn" aria-label="See next reason">Next 💕</button>
+        <span id="reasonCounter" class="reason-counter" aria-label="Current reason count"></span>
+    </div>
+</main>
+
+<div id="finalOverlay" class="overlay hidden" role="dialog" aria-labelledby="finalMessage">
+    <h2 id="finalMessage">You are my forever Loulou ❤️</h2>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
